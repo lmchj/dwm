@@ -35,6 +35,7 @@ static const Rule rules[] = {
 	{ "Firefox",  NULL,       NULL,       1 << 8,       0,           -1 },
 	{ "R_x11",    NULL,       NULL,       0,       		1,           -1 },
 	{ "Galculator",    NULL,       NULL,       0,       		1,           -1 },
+	{ "MEGAsync",    NULL,       NULL,       0,       		1,           -1 },
 };
 
 /* layout(s) */
