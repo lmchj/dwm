@@ -37,6 +37,9 @@ static const Rule rules[] = {
 	{ "Galculator",    NULL,       NULL,       0,       		1,           -1 },
 	{ "MEGAsync",    NULL,       NULL,       0,       		1,           -1 },
 	{ "mpv",    NULL,       NULL,       0,       		1,           -1 },
+	{ "Dia",    NULL,       NULL,       0,       		1,           -1 },
+	{ "Sxiv",    NULL,       NULL,       0,       		1,           -1 },
+	{ "Zathura",    NULL,       NULL,       0,       		1,           -1 },
 };
 
 /* layout(s) */
@@ -71,7 +74,6 @@ static Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
 	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmd } },
-	{ MODKEY|ControlMask,             XK_Return, spawn,          SHCMD("setsid -f $TERMINAL") },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
@@ -107,6 +109,11 @@ static Key keys[] = {
 	{ MODKEY,						XK_F10,		spawn,			SHCMD("dmenuss") },
 	{ MODKEY,						XK_F11,		spawn,			SHCMD("dmenumount") },
 	{ MODKEY,						XK_F12,		spawn,			SHCMD("dmenusession") },
+	{ MODKEY,						XK_F1,		spawn,			SHCMD("mpc prev") },
+	{ MODKEY,						XK_F2,		spawn,			SHCMD("mpc toggle") },
+	{ MODKEY,						XK_F3,		spawn,			SHCMD("mpc next") },
+	{ MODKEY,						XK_F4,		spawn,			SHCMD("mpc volume +5") },
+	{ MODKEY|ShiftMask,				XK_F4,		spawn,			SHCMD("mpc volume -5") },
 };
 
 /* button definitions */
