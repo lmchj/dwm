@@ -40,6 +40,7 @@ static const Rule rules[] = {
 	{ "dia",    NULL,       NULL,       0,       		1,           -1 },
 	{ "Sxiv",    NULL,       NULL,       0,       		1,           -1 },
 	{ "Zathura",    NULL,       NULL,       0,       		1,           -1 },
+	{ "Upwork",    NULL,       NULL,       0,       		1,           -1 },
 };
 
 /* layout(s) */
