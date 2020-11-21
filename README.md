@@ -2,8 +2,9 @@
 
 dwm is an extremely fast, small, and dynamic window manager for X.
 
-This is the version I made for myself, nothing fancy (yet).
-
 ## Patches applied
 
-- systray
+**NONE**
+
+Vanilla dwm is fine by itself unlike st and shit like that.
+This is why this repo is pointless already.
