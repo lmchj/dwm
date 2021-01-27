@@ -26,16 +26,17 @@ static const Rule rules[] = {
 	 *	WM_NAME(STRING) = title
 	 */
 	/* class      		instance    title       tags mask     	isfloating   monitor */
-	{ "Gimp",     		NULL,       NULL,       0,            	1,           -1 },
-	{ "Firefox",  		NULL,       NULL,       0,				0,           -1 },
+	/* Floating stuff*/
+	{ "Gimp",     		NULL,       NULL,       0,            		1,           -1 },
 	{ "R_x11",    		NULL,       NULL,       0,       		1,           -1 },
-	{ "Galculator",    	NULL,       NULL,       0,       		1,           -1 },
+	{ "Qalculate-gtk",    	NULL,       NULL,       0,       		1,           -1 },
 	{ "MEGAsync",    	NULL,       NULL,       0,       		1,           -1 },
 	{ "mpv",    		NULL,       NULL,       0,       		1,           -1 },
-	{ "dia",    		NULL,       NULL,       0,       		1,           -1 },
 	{ "Sxiv",    		NULL,       NULL,       0,       		1,           -1 },
-	{ "Zathura",    	NULL,       NULL,       0,       		1,           -1 },
 	{ "Upwork",    		NULL,       NULL,       0,       		1,           -1 },
+	{ "Arandr",    		NULL,       NULL,       0,       		1,           -1 },
+	/* Non-floating stuff*/
+	{ "Firefox",  		NULL,       NULL,       0,			0,           -1 },
 };
 
 /* layout(s) */
