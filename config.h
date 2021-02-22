@@ -35,6 +35,10 @@ static const Rule rules[] = {
 	{ "Sxiv",    		NULL,       NULL,       0,       		1,           -1 },
 	{ "Upwork",    		NULL,       NULL,       0,       		1,           -1 },
 	{ "Arandr",    		NULL,       NULL,       0,       		1,           -1 },
+	{ "Evolution",    	NULL,       NULL,       0,       		1,           -1 },
+	{ "Lxappearance",    	NULL,       NULL,       0,       		1,           -1 },
+	{ "Syncthing GTK",    	NULL,       NULL,       0,       		1,           -1 },
+	{ "zoom",    		NULL,       NULL,       0,       		1,           -1 },
 	/* Non-floating stuff*/
 	{ "Firefox",  		NULL,       NULL,       0,			0,           -1 },
 };
