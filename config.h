@@ -39,6 +39,10 @@ static const Rule rules[] = {
 	{ "Lxappearance",    	NULL,       NULL,       0,       		1,           -1 },
 	{ "Syncthing GTK",    	NULL,       NULL,       0,       		1,           -1 },
 	{ "zoom",    		NULL,       NULL,       0,       		1,           -1 },
+	{ "Seahorse",  		NULL,       NULL,       0,       		1,           -1 },
+	{ "KeePassXC",  		NULL,       NULL,       0,       		1,           -1 },
+	{ "gnuplot_qt",  		NULL,       NULL,       0,       		1,           -1 },
+	{ "Microsoft Teams - Preview",  		NULL,       NULL,       0,       		1,           -1 },
 	/* Non-floating stuff*/
 	{ "Firefox",  		NULL,       NULL,       0,			0,           -1 },
 };
