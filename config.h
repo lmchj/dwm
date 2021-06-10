@@ -5,13 +5,13 @@ static const unsigned int borderpx  = 5;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "monospace:size=10", "NotoColorEmoji:pixelsize=10:antialias=true:autohint=true" };
+static const char *fonts[]          = { "monospace:size=12", "Noto Color Emoji:pixelsize=12:antialias=true:autohint=true" };
 /*static const char dmenufont[]       = "monospace:size=10";*/
 static const char col_gray1[]       = "#2E3440";
 static const char col_gray2[]       = "#4C566A";
 static const char col_gray3[]       = "#bbbbbb";
 static const char col_gray4[]       = "#eeeeee";
-static const char col_cyan[]        = "#BF616A";
+static const char col_cyan[]        = "#B48EAD";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
